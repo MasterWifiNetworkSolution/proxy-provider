@@ -1,0 +1,16 @@
+proxies:
+- name: "Vmess"
+  type: vmess
+  server: 123.123.123.123
+  port: 443
+  uuid: xxxx.xxxx.xxxx.xxxx
+  alterId: 32
+  cipher: aes-256-gcm
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: v2ray.sshanda.com
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: v2ray.sshanda.com
