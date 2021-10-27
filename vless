@@ -1,0 +1,13 @@
+proxies:
+- name: "vlessmaster"
+  type: vless
+  Server: 123.123.123.123
+  Port: 443
+  UUID: xxxx.xxxx.xxxx.xxxx
+  UDP: true
+  TLS: true
+  Network: isikan.serveranda.xyz
+  WSPath: "/sshanda"
+  WSHeaders: isikan.serveranda.xyz
+  SkipCertVerify: true
+  ServerName: isikan.serveranda.xyz
