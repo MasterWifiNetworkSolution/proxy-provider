@@ -1,13 +1,15 @@
 proxies:
-- name: "vlessmaster"
+- name: "vless"
   type: vless
-  Server: 123.123.123.123
+  server: 123.123.123.123
   Port: 443
-  UUID: xxxx.xxxx.xxxx.xxxx
-  UDP: true
-  TLS: true
-  Network: isikan.serveranda.xyz
-  WSPath: "/sshanda"
-  WSHeaders: isikan.serveranda.xyz
-  SkipCertVerify: true
-  ServerName: isikan.serveranda.xyz
+  uuid: xxxx.xxxx.xxxx.xxxx
+  alterId: 32
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: v2ray.sshanda.com
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    host: v2ray.sshanda.com
