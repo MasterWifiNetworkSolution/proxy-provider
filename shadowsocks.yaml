@@ -1,0 +1,12 @@
+proxies:
+- name: "shadowsocks"
+  type: ss
+  server: [bug].server.sshanda.com
+  port: 14000
+  cipher: aes-256-gcm
+  password: masterwifi
+  udp: true
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: server.sshanda.com
