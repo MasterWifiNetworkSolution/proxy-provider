@@ -1,0 +1,14 @@
+proxies:
+- name: vmess-grpc
+  type: vmess
+  server: v2ray.sshanda.com
+  port: 443
+  uuid: xxxx.xxxx.xxxx.xxxx
+  alterId: 32
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: v2ray.sshanda.com
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: v2ray.sshanda.com
