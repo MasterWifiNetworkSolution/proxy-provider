@@ -1,0 +1,9 @@
+proxies:
+- name: "trojan"
+  type: trojan
+  server: sg2.trojan.bonds.id
+  port: 443
+  password: masterwifi
+  udp: true
+  sni: bing.com
+  skip-cert-verify: true
