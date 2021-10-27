@@ -1,0 +1,12 @@
+proxies:
+- name: "shadowsocksr"
+  type: ssr
+  server: 123.123.123.123
+  port: 443
+  cipher: aes-256-cfb
+  password: shadowmaster
+  obfs: plain
+  protocol: origin
+  obfs-param: isikan param
+  protocol-param: isikan protocol
+  udp: true
