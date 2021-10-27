@@ -1,0 +1,12 @@
+proxies:
+- name: trojan-grpc
+  type: trojan
+  server: 123.123.123.123
+  port: 443
+  password: 555x-235hd-snd45-sddk2-dde4
+  network: grpc
+  sni: bing.com
+  skip-cert-verify: true
+  udp: true
+  grpc-opts:
+    grpc-service-name: howdy.id
