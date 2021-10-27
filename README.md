@@ -1,5 +1,10 @@
 # proxy-provider
 # all proxies openclash
+# Jangan lupa subscribe channel saya
+# Master Wifi Network Solution
+# Bagi yang ingin ajak kopi saya bisa via
+# shopeepay nomer 087737659957
+# BRI an MUHAMMAD YUSUF norek 453401017095532
 
 http (s)
 https://github.com/MasterWifiNetworkSolution/proxy-provider/blob/main/http-s.yaml
