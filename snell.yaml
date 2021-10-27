@@ -1,0 +1,10 @@
+proxies:
+- name: "snell"
+  type: snell
+  server: id2.trojan.bonds.id
+  port: 44046
+  psk: masterwifi
+  version: 2
+  obfs-opts:
+  mode: http # or tls
+  host: bing.com
