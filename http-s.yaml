@@ -1,0 +1,10 @@
+proxies:
+- name: "http"
+  type: http
+  server: domain.anda.com
+  port: 443
+  username: masterwifi
+  password: masterwifi
+  tls: isikan true atau https
+  skip-cert-verify: true
+  sni: bing.com
